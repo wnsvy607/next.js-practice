@@ -6,8 +6,8 @@ export default function Home() {
 
   return (
     <div>
-      <h4>홈페이지</h4>
-      <p>my name is {name}</p>
+      <h4 className="title">예제 홈페이지</h4>
+      <p className="title-sub">by {name}</p>
     </div>
   )
 }
